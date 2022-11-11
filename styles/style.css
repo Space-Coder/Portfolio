@@ -1,0 +1,188 @@
+.blurred {
+    background: #ff800050;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+body {
+    padding-top: 60px;
+    background: #202224;
+}
+
+.developer {
+    color: white;
+    cursor: pointer;
+    content: "";
+    top: 0;
+    left: 0;
+    direction: ltr;
+    transition: all 0.3s ease;
+}
+
+.developer:hover {
+    color: #ff8000;
+}
+
+.circle-image {
+    clip-path: circle();
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.btn {
+    color: white;
+    background-color: #ff8000;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 30px #ff8000;
+}
+
+.btn-outline {
+    border: solid #ff8000;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+}
+
+.btn-outline:hover {
+    color: white;
+    background: #ff8000;
+}
+
+.contact-details {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-details:hover {
+    margin-left: 10px;
+    color: #272d31;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    border: solid #ff8000;
+    border-radius: 0;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px rgb(255, 128, 0);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    background: #ff800050;
+    transition: all 0.2s ease;
+}
+
+.contact-footer {
+    color: #6c757d;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contact-footer:hover {
+    color: #ff8000;
+}
+
+#bar0 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar6 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar7 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar8 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bar9 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
